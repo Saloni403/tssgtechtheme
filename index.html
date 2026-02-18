@@ -515,7 +515,7 @@
 
       <div class="space40"></div>
       <div class="row">
-        <div class="col-lg-12 text-center" data-aos="zoom-in-up" data-aos-duration="700">
+        <div class="col-lg-12 text-center d-flex align-items-center justify-content-center " data-aos="zoom-in-up" data-aos-duration="700">
           <a class="theme-btn2" href="service.html">View All Services <span class="arrow1"><i
                 class="fa-solid fa-arrow-right"></i></span><span class="arrow2"><i
                 class="fa-solid fa-arrow-right"></i></span></a>
@@ -704,7 +704,7 @@
 
       <div class="space40"></div>
       <div class="row">
-        <div class="col-lg-12 text-center" data-aos="zoom-in-up" data-aos-duration="700">
+        <div class="col-lg-12 text-center d-flex align-items-center justify-content-center " data-aos="zoom-in-up" data-aos-duration="700">
           <a class="theme-btn2" href="service.html">View All Projects <span class="arrow1"><i
                 class="fa-solid fa-arrow-right"></i></span><span class="arrow2"><i
                 class="fa-solid fa-arrow-right"></i></span></a>
@@ -1215,9 +1215,73 @@
     </div>
 
     <!-- whatsapp and call btns end -->
+<style>
+  .certificatesdiv {
+  overflow: hidden;
+  background: #fff;
+  padding: 20px 0;
+}
+
+.marqueeee {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+
+.marqueeeecontent {
+  display: flex;
+  gap: 40px;
+  animation: scroll 20s linear infinite;
+}
+
+.certificatesdiv img {
+  width: 150px;
+  flex-shrink: 0;
+}
+
+/* Animation */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+  .marqueeeecontent:hover {
+  animation-play-state: paused;
+}
+</style>
+<!-- certificates start -->
+<section class="certificatesdiv">
+  <div class="marqueeee">
+    <div class="marqueeeecontent">
+      <img src="assets/imagess/certificates/phonepay.jpg" alt="">
+      <img src="assets/imagess/certificates/Razorpay.avif" alt="">
+      <img src="assets/imagess/certificates/startup-india.jpg" alt="">
+      <img src="assets/imagess/certificates/msme.png" alt="">
+      <img src="assets/imagess/certificates/iso-9001.png" alt="">
+      <img src="assets/imagess/certificates/ISO-20000.png" alt="">
+      <img src="assets/imagess/certificates/ISO_27001.jpg" alt="">
+
+      <!-- Duplicate images for seamless infinite loop -->
+      <img src="assets/imagess/certificates/phonepay.jpg" alt="">
+      <img src="assets/imagess/certificates/Razorpay.avif" alt="">
+      <img src="assets/imagess/certificates/startup-india.jpg" alt="">
+      <img src="assets/imagess/certificates/msme.png" alt="">
+      <img src="assets/imagess/certificates/iso-9001.png" alt="">
+      <img src="assets/imagess/certificates/ISO-20000.png" alt="">
+      <img src="assets/imagess/certificates/ISO_27001.jpg" alt="">
+    </div>
+  </div>
+</section>
+
+
+<!-- certificates start -->
 
     <!--===== FOOTER AREA START =======-->
-
+ 
     <div class="footer2 _relative">
       <div class="container">
         <div class="row">

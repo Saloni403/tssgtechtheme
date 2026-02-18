@@ -4520,8 +4520,8 @@ a.header__search.header-search-btn p {
   }
 }
   .ceodesign{
-    height: 400px;
-    width: 400px;
+    height: 350px;
+    width: 350px;
     background-color: #45a19e;
     border-radius: 50%;
     position: absolute;
@@ -12607,7 +12607,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   border-radius: 50%;
   padding: 5px;
   margin: 5px;
-  background-color: rgba(161, 233, 52, 0.4745098039);
+  background-color: rgb(255, 255, 255, 0.3);
 }
 
 .testimonial2 .owl-dots button.active {
