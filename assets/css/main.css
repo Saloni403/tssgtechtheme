@@ -144,6 +144,12 @@ CSS LIST
   bottom: 200px;
   animation: bouncing2 3s linear infinite;
 }
+ol{
+  color: #ccc;
+}
+ol li{
+ list-style: circle;
+}
 
 @keyframes bouncing1 {
 
@@ -6642,15 +6648,13 @@ margin-top: 30px;
   transition: all 0.4s;
 }
 
-.project-page-box .heading2 h4 a {
+.project-page-box .heading2 h4 {
   line-height: 28px;
+    color: #fff;
 }
 
-.project-page-box .heading2 h4 a:hover {
-  color: #fff;
-}
 
-.project-page-box .heading2 a.learn {
+.project-page-box .heading2 .learn {
   display: inline-block;
   color: #fff;
   font-size: var(--f-fs-font-fs16);
@@ -6658,7 +6662,7 @@ margin-top: 30px;
   font-weight: var(--f-fw-blod);
 }
 
-.project-page-box .heading2 a.learn span {
+.project-page-box .heading2 .learn span {
   display: inline-block;
   transform: rotate(-45deg);
   margin-top: 16px;
@@ -6703,11 +6707,11 @@ margin-top: 30px;
   transition: all 0.4s;
 }
 
-.comon-body .project-page-box .heading2 h4 a {
+.comon-body .project-page-box .heading2 h4 {
   line-height: 28px;
 }
 
-.comon-body .project-page-box .heading2 a.learn {
+.comon-body .project-page-box .heading2 .learn {
   display: inline-block;
   color: var(--ztc-bg-main-bg-4);
   font-size: var(--f-fs-font-fs16);
@@ -6715,7 +6719,7 @@ margin-top: 30px;
   font-weight: var(--f-fw-blod);
 }
 
-.comon-body .project-page-box .heading2 a.learn span {
+.comon-body .project-page-box .heading2 .learn span {
   display: inline-block;
   transform: rotate(-45deg);
   margin-top: 16px;
@@ -16652,4 +16656,5 @@ color: #fff;
     cursor: pointer;
     width: fit-content;
     font-size: 2rem;
+    color:#fff;
 }
